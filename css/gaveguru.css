@@ -1,0 +1,14 @@
+
+.logo-image {
+    height:70px;
+}
+
+.icon-messenger {
+    background-image: url(https://operator.com/media/img/gamma/messenger/icon-messenger@2x.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    display: inline-block;
+    float:left;
+}

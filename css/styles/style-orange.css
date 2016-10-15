@@ -46,7 +46,7 @@ a {
     text-decoration: none;
     outline: 0;
     cursor: pointer;
-    color: #ed9017;
+    color: #F6881C;
 }
 
 a:focus {
@@ -91,12 +91,12 @@ h6 {
 }
 
 *::-moz-selection {
-    background: none repeat scroll 0 0 #ed9017;
+    background: none repeat scroll 0 0 #F6881C;
     color: #fff;
 }
 
 ::selection {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
@@ -121,7 +121,7 @@ h6 {
     margin: -35px 0 0 -35px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #ed9017;
+    border-top-color: #F6881C;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -135,7 +135,7 @@ h6 {
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #ed9017;
+    border-top-color: #F6881C;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -149,7 +149,7 @@ h6 {
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #ed9017;
+    border-top-color: #F6881C;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -242,19 +242,19 @@ h2 {
 .overlay-gradient {
  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZWQ5MDE3IiBzdG9wLW9wYWNpdHk9IjAuOSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjZlNmI0IiBzdG9wLW9wYWNpdHk9IjAuOSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(-45deg, rgba(237,144,23,0.9) 0%, rgba(246,230,180,0.9) 100%);
+    background: -moz-linear-gradient(-45deg, rgba(246,136,28,.9) 0%, rgba(246,230,180,0.9) 100%);
  /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(237,144,23,0.9)), color-stop(100%,rgba(246,230,180,0.9)));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,136,28,.9)), color-stop(100%,rgba(246,230,180,0.9)));
  /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, rgba(237,144,23,0.9) 0%,rgba(246,230,180,0.9) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(246,136,28,.9) 0%,rgba(246,230,180,0.9) 100%);
  /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, rgba(237,144,23,0.9) 0%,rgba(246,230,180,0.9) 100%);
+    background: -o-linear-gradient(-45deg, rgba(246,136,28,.9) 0%,rgba(246,230,180,0.9) 100%);
  /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, rgba(237,144,23,0.9) 0%,rgba(246,230,180,0.9) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(246,136,28,.9) 0%,rgba(246,230,180,0.9) 100%);
  /* IE10+ */
-    background: linear-gradient(135deg, rgba(237,144,23,0.9) 0%,rgba(246,230,180,0.9) 100%);
+    background: linear-gradient(135deg, rgba(246,136,28,.9) 0%,rgba(246,230,180,0.9) 100%);
  /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ed9017', endColorstr='#e6f6e6b4',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6F6881C', endColorstr='#e6f6e6b4',GradientType=1 );
  /* IE6-8 fallback on horizontal gradient */
     width: 100%;
     height: 100%;
@@ -327,17 +327,17 @@ h2 {
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-    color: #ed9017;
-    border: 1px solid #ed9017;
+    color: #F6881C;
+    border: 1px solid #F6881C;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons div:hover {
-    background: #ed9017;
+    background: #F6881C;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: #ed9017;
+    background: #F6881C;
 }
 
 section {
@@ -406,7 +406,7 @@ section {
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
-    background: #ed9017;
+    background: #F6881C;
 }
 
 /******************
@@ -446,12 +446,12 @@ header {
     left: 0;
     width: 100%;
     z-index: 999;
-    background: #ed9017;
-    padding: 0 0 15px;
+    background: #F6881C;
+    padding: 0 0 5px;
 }
 
 .top-bar.slidedown .nav {
-    padding-top: 15px;
+    padding-top: 21px;
 }
 
 .top-bar.slidedown .logo {
@@ -511,18 +511,18 @@ header {
     background: #fff;
     text-shadow: inherit;
     border-radius: 5px;
-    color: #ed9017;
+    color: #F6881C;
 }
 
 .nav .download-btn a {
     background: #fff;
-    color: #ed9017;
+    color: #F6881C;
     text-shadow: inherit;
     border-radius: 5px;
 }
 
 .nav .download-btn a:hover {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
@@ -597,10 +597,10 @@ header {
     top: 50%;
     margin-top: -60px;
     background: #fff;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     border-radius: 50%;
     font-size: 18px;
-    color: #ed9017;
+    color: #F6881C;
     display: inline-block;
     text-align: center;
     padding-top: 6px;
@@ -613,7 +613,7 @@ header {
 }
 
 .arrow-left:hover, .arrow-right:hover {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
@@ -655,11 +655,11 @@ header {
 
 .icon-wrap .icon {
     font-size: 36px;
-    color: #ed9017;
+    color: #F6881C;
     width: 80px;
     height: 80px;
     display: inline-block;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     text-align: center;
     border-radius: 50%;
     padding-top: 20px;
@@ -671,7 +671,7 @@ header {
 }
 
 .icon-wrap:hover .icon {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
@@ -694,7 +694,7 @@ header {
 .feature-block i {
     width: 50px;
     height: 50px;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     display: inline-block;
     text-align: center;
     font-size: 24px;
@@ -702,7 +702,7 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    color: #ed9017;
+    color: #F6881C;
     border-radius: 50%;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -712,19 +712,19 @@ header {
 }
 
 .feature-block:hover i {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
 .feature-block h3 {
     font-size: 21px;
-    color: #ed9017;
+    color: #F6881C;
     font-weight: 300;
     margin-top: 0;
 }
 
 .feature .heading:after {
-    background: #ed9017;
+    background: #F6881C;
 }
 
 .feature .heading {
@@ -780,7 +780,7 @@ header {
     height: 60px;
     display: block;
     border: 3px solid #fff;
-    background: #ed9017;
+    background: #F6881C;
     border-radius: 5px;
     font-size: 26px;
     padding-top: 7px;
@@ -799,8 +799,8 @@ header {
 
 .dw-btns a:hover {
     background: #fff;
-    border-color: #ed9017;
-    color: #ed9017;
+    border-color: #F6881C;
+    color: #F6881C;
 }
 
 .download img {
@@ -901,7 +901,7 @@ header {
 }
 
 .gallery a {
-    background: #ed9017;
+    background: #F6881C;
     display: inline-block;
     border-radius: 5px;
     overflow: hidden;
@@ -957,7 +957,7 @@ header {
 .testis img {
     margin: 0 auto;
     margin-bottom: 10px;
-    border: 3px solid #ed9017;
+    border: 3px solid #F6881C;
     width: 75px;
 }
 
@@ -1011,7 +1011,7 @@ cite span {
     text-align: center;
     margin: 20px 0 30px;
     color: #9c9c9c;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     border-radius: 5px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -1036,7 +1036,7 @@ cite span {
 .plan li.plan-name {
     padding: 15px;
     font-size: 21px;
-    color: #ed9017;
+    color: #F6881C;
     border: 0;
     font-weight: 100;
 }
@@ -1055,8 +1055,8 @@ cite span {
 }
 
 .plan li.plan-action .btn-sign {
-    background: #ed9017;
-    border: 1px solid #ed9017;
+    background: #F6881C;
+    border: 1px solid #F6881C;
     border-radius: 10px;
     color: #fff;
     padding: 10px 30px;
@@ -1068,8 +1068,8 @@ cite span {
 }
 
 .plan li.plan-action .btn-sign:hover {
-    color: #ed9017;
-    border: 1px solid #ed9017;
+    color: #F6881C;
+    border: 1px solid #F6881C;
     background: #fff;
 }
 
@@ -1111,8 +1111,8 @@ cite span {
 }
 
 .newsletter .submit {
-    background: #ed9017;
-    border: 1px solid #ed9017;
+    background: #F6881C;
+    border: 1px solid #F6881C;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: all 0.2s;
@@ -1124,7 +1124,7 @@ cite span {
 
 .newsletter .submit:hover {
     background: #fff;
-    color: #ed9017;
+    color: #F6881C;
 }
 
 .newsletter .input-field.error {
@@ -1158,7 +1158,7 @@ cite span {
 }
 
 .contact input:focus, textarea:focus {
-    border-color: #ed9017;
+    border-color: #F6881C;
     outline: 0;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -1176,9 +1176,9 @@ cite span {
 .contact .submit {
     margin: 0;
     width: 178px;
-    border-color: #ed9017;
+    border-color: #F6881C;
     float: right;
-    background: #ed9017;
+    background: #F6881C;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -1188,7 +1188,7 @@ cite span {
 
 .contact .submit:hover {
     background: #fff;
-    color: #ed9017;
+    color: #F6881C;
 }
 
 .contact input.error {
@@ -1221,7 +1221,7 @@ cite span {
 
 .fast-contact a:hover {
     text-decoration: underline;
-    color: #ed9017;
+    color: #F6881C;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -1238,13 +1238,13 @@ cite span {
     width: 35px;
     height: 35px;
     display: block;
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
     text-align: center;
     padding-top: 5px;
     font-size: 18px;
     border-radius: 50%;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -1254,7 +1254,7 @@ cite span {
 
 .socials a:hover {
     background: #fff;
-    color: #ed9017;
+    color: #F6881C;
 }
 
 
@@ -1281,10 +1281,10 @@ footer p {
     margin-left: -20px;
     margin-top: -20px;
     background: #fff;
-    border: 1px solid #ed9017;
+    border: 1px solid #F6881C;
     border-radius: 50%;
     font-size: 18px;
-    color: #ed9017;
+    color: #F6881C;
     display: inline-block;
     text-align: center;
     padding-top: 6px;
@@ -1296,7 +1296,7 @@ footer p {
 }
 
 .scrollup:hover {
-    background: #ed9017;
+    background: #F6881C;
     color: #fff;
 }
 
@@ -1306,14 +1306,14 @@ footer p {
 @media (max-width: 991px) {
 
     .top-bar {
-        background: #ed9017;
+        background: #F6881C;
     }
 
     .navbar-collapse {
-        background: #ed9017;
+        background: #F6881C;
     }
 
     .nav .download-btn a:hover, .nav .download-btn a.active {
-        color: #ed9017;
+        color: #F6881C;
     }
 }
